@@ -8,7 +8,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
-release = "1.1.0"
+release = "0.0.1"
 
 # list all data folders here, to ensure they get packaged
 
@@ -36,7 +36,7 @@ print(extra_files)
 print(find_packages(exclude=["test_*", "TODO*"]))
 
 setup(
-    name="rtb-data",
+    name="neura-rtb-data",
     version=release,
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
@@ -57,11 +57,11 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
     ],
     project_urls={
-        "Source": "https://github.com/petercorke/roboticstoolbox-python",
+        "Source": "https://github.com/JTem/neura-roboticstoolbox",
     },
-    url="https://github.com/petercorke/roboticstoolbox-python",
-    author="Peter Corke",
-    author_email="rvc@petercorke.com",  # TODO
+    url="https://github.com/JTem/neura-roboticstoolbox",
+    author="Jens Temminghoff",
+    author_email="jens.temminghoff@neura-robotics.com",  # TODO
     keywords="python robotics",
     # license='MIT',
     package_data={"rtbdata": extra_files},

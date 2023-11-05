@@ -4,7 +4,7 @@ name = "neura-roboticstoolbox"
 
 description = "roboticstoolbox-python with Maira7M"
 
-version = "0.0.2"
+version = "0.0.3"
 
 authors = [
     { name = "Jesse Haviland", email = "j.haviland@qut.edu.au" },
@@ -21,7 +21,7 @@ dependencies = [
     "matplotlib",
     "ansitable",
     "neura-swift>=0.0.2",
-    "rtb-data",
+    "neura-rtb-data",
     "progress",
     "typing_extensions",
 ]
