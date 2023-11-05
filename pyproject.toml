@@ -4,7 +4,7 @@ name = "neura-roboticstoolbox"
 
 description = "roboticstoolbox-python with Maira7M"
 
-version = "0.0.1"
+version = "0.0.2"
 
 authors = [
     { name = "Jesse Haviland", email = "j.haviland@qut.edu.au" },
@@ -20,7 +20,7 @@ dependencies = [
     "scipy",
     "matplotlib",
     "ansitable",
-    "neura-swift>=0.0.1",
+    "neura-swift>=0.0.2",
     "rtb-data",
     "progress",
     "typing_extensions",
@@ -64,9 +64,9 @@ classifiers = [
 
 
 [project.urls]
-homepage = "https://github.com/petercorke/robotics-toolbox-python"
+homepage = "https://github.com/JTem/neura_robotics_toolbox"
 documentation = "https://petercorke.github.io/robotics-toolbox-python/"
-repository = "https://github.com/petercorke/robotics-toolbox-python"
+repository = "https://github.com/JTem/neura_robotics_toolbox"
 
 
 [project.optional-dependencies]
